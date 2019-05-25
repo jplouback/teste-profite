@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Teste Front-end</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <h1>Titulo</h1>
-    <script src="js/bundle.js"></script>
+
+    <header id="main_header">
+        <div class="container">
+            <div class="toggle_menu">
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            
+            <div class="content_logo">
+                <img src="dist/img/logo.png" alt="" class="logo">
+            </div>
+
+            <div id="busca">
+                <input type="text" id="input_busca" placeholder="O que está procurando?">
+                <button type="button">
+                    <img src="dist/img/search.png" alt="">
+                </button>
+            </div>
+
+            <div id="conta_cart">
+                <div class="minha_conta">
+                        <img src="dist/img/user.png" alt="">
+                        <span>Minha Conta</span>
+                </div>
+                <div id="carrinho">
+                    <img src="dist/img/cart.png" alt="" class="cart">
+                    <span id="badge">1</span>
+                </div>
+            </div>
+
+            <div id="content_menu">
+                
+                <div id="menu">
+                    <div class="close_menu">
+                        <span>×</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                Minha Conta
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-lang="pt-BR">
+                                <img src="dist/img/BR@2x.png" alt="" class="flag">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-lang="pt-BR">
+                                <img src="dist/img/ES@2x.png" alt="" class="flag">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" data-lang="pt-BR">
+                                <img src="dist/img/GB@2x.png" alt="" class="flag">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <script src="dist/js/bundle.js"></script>
 </body>
 </html>
