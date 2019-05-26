@@ -6,7 +6,7 @@
       "valorCheio": "399,00",
       "valorOff": "399,00",
       "parcela": "ou em 3x de R$ 133,00",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec47555e434132ee318a",
@@ -15,7 +15,7 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec47def0cea64eda1994",
@@ -24,7 +24,7 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec478e10bfa07a0eddf6",
@@ -33,7 +33,7 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec473130b7cbd03fce13",
@@ -42,7 +42,7 @@
       "valorCheio": "399,00",
       "valorOff": "399,00",
       "parcela": "ou em 3x de R$ 133,00",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec47b444c91994d464ec",
@@ -51,7 +51,7 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec473c2621be0fc7da12",
@@ -60,7 +60,7 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     },
     {
       "id": "5ce9ec47c10c8610642f92ca",
@@ -69,6 +69,6 @@
       "valorCheio": "399,00",
       "valorOff": "299,00",
       "parcela": "ou em 3x de R$ 99,66",
-      "imagem": "/dist/img/img-produto.png"
+      "imagem": "dist/img/img-produto.png"
     }
   ]
