@@ -844,6 +844,29 @@ footer {
         }
     }
 
+    #produtos {
+        #content_produtos {
+            .produto_item {
+                .box {
+
+                    &:hover {
+                        .descricao {
+                            .comprar {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    .descricao {
+                        .comprar {
+                            opacity: 0;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     footer {
         .container {
             .localicacao {
