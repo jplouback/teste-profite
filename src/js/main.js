@@ -1,7 +1,7 @@
 import '../scss/main.scss';
+import { Util } from './util';
 import { tns } from "../../node_modules/tiny-slider/src/tiny-slider";
 import { Render } from './render';
-import { Util } from './util';
 
 let render = new Render();
 let $ = new Util();
@@ -24,8 +24,8 @@ render.renderBanner(data_banner,'.home_slider', () => {
         controlsContainer: document.querySelector('#custom_controls'),
         responsive: {
             '992': {
-                "arrowKeys": true,
-                "controls": true
+                arrowKeys: true,
+                controls: true
             }
           }
     });
@@ -38,3 +38,24 @@ toggleMenu.forEach( (item) => {
         $.toggleClass('#content_menu','opened');
     });
 });
+
+render.renderProductFromUrl('/dist/json/produtos.json','#content_produtos', () => {
+    var vitrine_produtos = tns({
+        container: '#content_produtos',
+        items: 2,
+        slideBy: 'page',
+        controls: false,
+        mouseDrag: true,
+        navPosition: 'bottom',
+        controlsText: ['', ''],
+        responsive: {
+            '992': {
+                arrowKeys: true,
+                controls: true,
+                items: 4,
+            }
+          }
+    });
+});
+
+
