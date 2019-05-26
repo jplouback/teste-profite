@@ -26,7 +26,6 @@ export class Render {
         
     }
 
-    // feito para em wp-json do woocomerce
     renderProductFromUrl(url,container, callback) {
         const Http = new XMLHttpRequest();
         

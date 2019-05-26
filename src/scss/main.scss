@@ -276,6 +276,7 @@ body {
             position: absolute;
             height: 30px;
             width: 30px;
+            cursor: pointer;
 
             &:before, &:after {
                 content: '';
@@ -289,7 +290,9 @@ body {
                 left: 7px;
             }
 
-            &:hover {
+            &:hover, &:active, &:focus {
+                outline: none;
+
                 &:before, &:after {
                     background: $laranja;
                 }

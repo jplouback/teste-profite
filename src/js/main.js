@@ -58,4 +58,5 @@ render.renderProductFromUrl('/dist/json/produtos.json','#content_produtos', () =
     });
 });
 
-
+// funçao global que 'troca o idioma' do site
+window.changeLang = $.changeLang;

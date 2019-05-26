@@ -16,5 +16,9 @@ export class Util {
         let el = document.querySelector(element);
         el.classList.toggle(className);
     }
+
+    changeLang(lang) {
+        document.documentElement.setAttribute("lang", lang);
+    }
         
 }
