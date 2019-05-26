@@ -74,7 +74,7 @@ export class Render {
                                     </div>
 
                                     <button class="comprar">
-                                        <img src="/dist/img/add-cart.png" alt="">
+                                        <img src="dist/img/add-cart.png" alt="">
                                         <span>Comprar</span>
                                     </button>
                                 </div>

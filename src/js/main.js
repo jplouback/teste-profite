@@ -39,7 +39,7 @@ toggleMenu.forEach( (item) => {
     });
 });
 
-render.renderProductFromUrl('/dist/json/produtos.json','#content_produtos', () => {
+render.renderProductFromUrl('https://store.bizul.com.br/produtos.json','#content_produtos', () => {
     var vitrine_produtos = tns({
         container: '#content_produtos',
         items: 2,
